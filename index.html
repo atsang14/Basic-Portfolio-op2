@@ -2,32 +2,133 @@
 <html>
 <head>
 	<title>About Austin</title>
-	 <!-- <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css"> -->
+<!-- 	 <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css">-->
 </head>
-<body>
-	<div>	
-		<div>
-			<h1>Your Name</h1>
-		</div>
-		<div>
-			<h3>About</h3>
-			<h3>Portfolio</h3>
-			<h3>Contact</h3>
-		</div>
-	</div>
-	<div>
-		<h1>About Me</h1>
-		<img src="assets/images/austin_1.jpg" width="200" height="150">
-		<p>
-			Hello whom may concern,
+<style type="text/css">
+	
+	html, body {
+	    margin: 0;
+	    margin-top: 2px;
+	    padding: 0;
+	}
+	
+	#all {
+		margin-bottom: 50px;
+		/*background image goes here */
+		background-image: 
+		height: 676px;
+	}
 
-				I'm Austin T. This is a webpage to showcase my basic skills in HTML(Hypertext Markup Language) and CSS(Cascade Style Sheets). 
+	body {
+		background: black;
+	}
+	header {
+		border-bottom-style: solid;
+		border-color: lightgrey;
+		height: 77px;
+		background-color: white;
+	}
+	#name{
+		background: teal;
+		color: white;
+		margin-top: 0px;
+		margin-left: 225px;
+		padding: 20px;
+		width: 175px;
+	}
+	ul {
+    	list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    float: right;
+	    position: relative;
+	    bottom: 70px;
+	    margin-right: 225px;
+	}
 
-				I'm currently a Computer Science Major at San Francisco State Univeristy. I'm not sure exactly what I'd like to go into as a career. Web Development is something that interests me. This webpage is not only a way for me to showcase my HTML & CSS capabilities, but to also show express my interests and my current accomplishments.
-		</p>
-		<p>
-			Copyright &#169;
-		</p>
+	li {
+	    display: inline;
+	}
+
+	#main {
+		width: 960px;
+		margin-top: 30px;
+		margin-left: 225px;
+		border-style: ridge;
+		padding: 15px;
+		height: 300px;
+		background-color: white;
+	}
+
+	#aboutMe {
+	    border-bottom-style: ridge;
+	    padding-bottom: 11px;
+	    position: relative;
+	    bottom: 4px;
+	    color: teal;
+	}
+
+	#pic {
+		position: relative;
+		bottom: 8px;
+	}
+	
+	#paragraph {
+	    width: 740px;
+	    line-height: 30px;
+	    position: relative;
+	    bottom: 186px;
+	    left: 220px;
+	}
+
+	footer {
+	    font-size: 10px;
+	    background-color: grey;
+	    color: lightgrey;
+	    text-align: center;
+	    height: 58px;
+	    margin-top: 230px;
+	}
+
+	#teal {
+		height: 10px;
+		background-color: teal;
+		position: relative;
+		top: 230px
+	}
+
+	#copyRight {
+		position: relative;
+		top: 43px;
+	}
+</style>
+<body>		
+	<div id="all">
+		<header>
+		<h1 id="name">Austin T.</h1>		
+			<ul>
+			  <li><a href="">About</a></li>
+			  <li><a href="">Portfolio</a></li>
+			  <li><a href="">Contact</a></li>
+			</ul>
+		</header>
+		<div id="main">
+			<h1 id="aboutMe">About Me</h1>
+			<img id="pic" src="assets/images/austin_1.jpg" width="200" height="150">
+			<p id="paragraph">
+				Hello to whom may concern,
+
+					I'm Austin T. This is a webpage to showcase my basic skills in HTML(Hypertext Markup Language) and CSS(Cascade Style Sheets). 
+
+					I'm currently a Computer Science Major at San Francisco State Univeristy. I'm not sure exactly what I'd like to go into as a career. Web Development is something that interests me. This webpage is not only a way for me to showcase my HTML & CSS capabilities, but to also show express my interests and my current accomplishments.
+			</p>
+
+		</div>
+		<div id="teal"></div>
+		<footer>
+			<p id="copyRight">Copyright &#169;</p>
+		</footer>
 	</div>
+	
 </body>
 </html>
